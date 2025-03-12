@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-3.png" alt="Yitong Li" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yitong(Jennifer) Li">Yitong(Jennifer) Li</h1>
+
+          <p class="title">Data Scientist/User Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jenniferminsuga@163.com" class="contact-link">jenniferminsuga@163.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+310620636787" class="contact-link">+31 0620636787</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-06-10">June 10, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Amsterdam, North-Holland, NL</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yitong-li-292a06235/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           Hi, I'm Yitong (Jennifer) Li, a passionate Data Scientist and Researcher with a background in Data Science and Psychology.
+            I specialize in machine learning, deep learning, and natural language processing.
+            My work focuses on leveraging data-driven insights to solve real-world problems, particularly in
+            recommendation systems and AI fairness.
+          </p>
+
+          <p>
+            I am deeply passionate about data-driven business analysis, using analytical approaches to uncover
+             insights that drive strategic decision-making. My goal is to merge my expertise in machine learning and
+             data science with real-world business applications, ultimately advancing my journey to becoming a
+             professional data scientist. By continuously exploring new technologies and refining my analytical skills,
+             I aim to contribute to impactful solutions that optimize business performance and user experiences.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Technical Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
+                  " alt="Python Logo" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python</h4>
+
+                <p class="service-item-text">
+                  A powerful and versatile programming language used for data science, machine learning, web development, and more.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg"
+                     alt="R studio Logo" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">R Studio</h4>
+
+                <p class="service-item-text">
+                  A statistical computing and visualization tool widely used for data analysis and machine learning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" width="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MySQL</h4>
+
+                <p class="service-item-text">
+                  Structured Query Language for managing and analyzing relational databases efficiently.
+                </p>
+              </div>
+               </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://www.bjorn-meijer.nl/wp-content/uploads/2022/10/powerbi-logo.png" alt="PowerBI" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Power BI</h4>
+
+                <p class="service-item-text">
+                   Business intelligence and data visualization tool for interactive reports and dashboards.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://bodyswitch.com.au/wp-content/uploads/2022/08/nlp-logo.png" alt="NLP icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Natural Language Processing</h4>
+
+                <p class="service-item-text">
+                   A field of AI that enables computers to understand, interpret, and generate human language for
+                  applications like chatbots, sentiment analysis, and text summarization.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="DeepLearning icon" width="30">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deep Learning</h4>
+
+                <p class="service-item-text">
+                    Utilizing neural networks to perform tasks such as classification, regression, and representation learning.
+                </p>
+              </div>
+            <li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Emily" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily R. | Head of E-commerce Strategy</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                     "Working with Jennifer was a great experience. She has a strong ability to translate complex data
+                    into meaningful insights, helping improve both product development and customer experience.
+                    Her knowledge of AI, machine learning, and user behavior made her a key contributor to our
+                    research team. She is thoughtful, collaborative, and always eager to tackle new challenges."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Jason Lou" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel M. | Senior Data Scientist </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Jennifer is an exceptional data analyst and researcher. She approaches every project with curiosity
+                    and precision, ensuring that data-driven decisions are well-founded. Her ability to combine
+                    psychology and data science is truly impressive, making her an invaluable asset in behavioral research.
+                    She is a dedicated professional with a strong passion for solving complex problems."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2024-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Employed Companies</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://shokz.com/">
+                <img src="https://cdn.shopify.com/s/files/1/0436/8426/6143/files/shokz.png?v=1663173146" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://babykub.com/">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUQ5SZ84vsFGYHxZUc5uVIV4cNWfpgcoK15g&s" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.overcome.org.uk/">
+                <img src="./assets/images/overcome.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Amsterdam (UvA) | MSc Data Science</h4>
+
+              <span>2025 — Now</span>
+
+              <p class="timeline-text">
+                Relevant Coursework: Big Data analysis, Behavioural Data Science Toolbox, Deep Learning in Python, Psychometrics.
+              </p>
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The London School of Economics (LSE)| MSc Social and Cultural Psychology (GPA: 3.85/4.00)</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Relevant Coursework: Consumer Psychology for Sustainability, Qualitative and Quantitative Research Method,
+                Contemporary Social and Cultural Psychology, Organizations, Groups and Identity.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Durham University | BSc Psychology (GPA: 3.70/4.00) </h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Relevant Coursework:
+                Emotions and Social Perception, Abnormal Psychology, Cognitive Psychology, Biological Psychology,
+                Psychology of Illness, the Research Method of Psychology.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior UX Researcher</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Conducted full-cycle analysis of infant product lines using machine learning to extract product and user
+                insights, supporting data-driven product development. Automated usability testing and reporting pipelines,
+                streamlining testing processes and enhancing decision-making efficiency.
+              </p>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">User Researcher</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                NDeveloped a deep learning-based chatbot to enhance customer service efficiency and improve user interactions.
+                Led A/B testing and user segmentation analysis, optimizing product design, marketing strategies,
+                and business decision-making through data-driven insights.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analyst</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Developed predictive and statistical models to improve app performance and user retention in the mental
+                health sector. Automated research processes and analyzed user data to support evidence-based feature
+                development and proactive interventions.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Statistical Modeling</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Artificial Intelligence & Automation</h5>
+                <data value="70">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Business Intelligence & User Research</h5>
+                <data value="90">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Research & Technical Documentation</h5>
+                <data value="50">35%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Deep Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Driven Consultancy</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Deep Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Driven Consultancy</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://colab.research.google.com/drive/1WkrsY5732A-7-sRFuLwGk5d8oaG7OJ2K?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://hackensackmeridianhealth.org/-/media/project/hmh/hmh/public/healthu/healthu-images/education-stories/2022/08/2022-08-29.png" alt="amazon reviews" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Amazon Customer Reviews Prediction</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://colab.research.google.com/drive/1Jy0K-QVjDJTi2uVCY1RgrK3M0jOpr7Jt?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://www.thechairmansbao.com/wp-content/uploads/2023/05/Chinese-vloggers-to-learn-mandarin.jpg" alt="big five" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Big Five Personality Profiling</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://colab.research.google.com/drive/1g0r874JB0e7Y3U_EN9WMN2VinABFzP06?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://www.duarte.com/wp-content/uploads/2024/05/Facial-expressions-matter-when-presenting-heres-why.png" alt="machine learning" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Facial Expression Classifier</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://chat360.io/wp-content/uploads/2023/08/6505894-scaled.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LLM-Based Recommender</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://colab.research.google.com/drive/10YxwmuTEz73_egWqNeXVO0Up0DNpqNcP?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.istockphoto.com/id/1330868115/vector/the-concept-of-a-copywriter-creating-a-blog-the-idea-of-writing-texts-creativity-and.jpg?s=612x612&w=0&k=20&c=lWWFnMO5e2qdHod-v3VZu3W6EKZ0MRGb5ZeuZFjculo=" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Poetry Theme Classification</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data driven consultancy">
+              <a href="https://www.dropbox.com/scl/fi/b79sud4pind54nr1tp6ze/Report-Machine-Learning-of-students-dropouts-1.pdf?rlkey=ntqcdblcpjoy3csint229ut4x&st=1hnrmjij&dl=0">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WNYXEHDV4UI6LJPCIDLLFLIY3U.jpg&w=1200" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Resolution of student dropouts in ROC van Amsterdam-Flevoland</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data driven consultancy">
+              <a href="https://www.dropbox.com/scl/fi/0o84bqko2v2e4yk25cmeh/Report-IDDS.pdf?rlkey=j93kw9w26zn6716wnjsyry76u&st=p3ryspb5&dl=0">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://png.pngtree.com/thumb_back/fh260/background/20220118/pngtree-educational-school-test-paper-with-mathematic-formulas-pencil-and-calculator-in-view-photo-image_43938978.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cost-Efficiency In Rekenfaculteit</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/in/yitong-li-292a06235/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-02-23">Fab 23, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">My Linkin Page</h3>
+
+                  <p class="blog-text">
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Future</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-02-23">Fab 23, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">More to Expect</h3>
+
+                  <p class="blog-text">
+                    To be Continue.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
